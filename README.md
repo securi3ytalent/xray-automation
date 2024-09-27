@@ -67,10 +67,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ```
 
-### How to Use
-
-1. **Create a `README.md` file** in your repository or project directory.
-2. **Copy and paste** the above content into the `README.md` file.
-3. **Save the file**.
-
 Feel free to customize any section based on your preferences or specific details about your project! If you need any further adjustments, just let me know.
