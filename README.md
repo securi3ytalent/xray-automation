@@ -1,5 +1,5 @@
 
-# Xray Bash Script
+# Xray automation Script
 
 This repository contains a Bash script for downloading and using [Xray](https://github.com/chaitin/xray) to scan websites for vulnerabilities. The script provides options to scan a list of URLs from a file or a single URL, and it can also handle downloading Xray if it is not already installed.
 
