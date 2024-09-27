@@ -1,0 +1,75 @@
+# Xray Bash Script
+
+This repository contains a Bash script for downloading and using [Xray](https://github.com/chaitin/xray) to scan websites for vulnerabilities. The script provides options to scan a list of URLs from a file or a single URL, and it can also handle downloading Xray if it is not already installed.
+
+## Features
+
+- Scan a list of URLs from a text file.
+- Scan a single URL.
+- Download Xray if it is not already installed.
+- Help documentation to guide users.
+
+## Requirements
+
+- Bash
+- `wget`
+- `unzip`
+- `python3` with `venv` module
+- `pip` (Python package installer)
+
+## Usage
+
+### Download Xray
+
+To download Xray if it is not already installed, use:
+
+```bash
+./xray.sh -d
+```
+
+### Scan a List of URLs
+
+To scan a list of URLs from a file:
+
+```bash
+./xray.sh -f <file.txt>
+```
+
+### Scan a Single URL
+
+To scan a single URL:
+
+```bash
+./xray.sh -s <url>
+```
+
+### Display Help
+
+To display help information:
+
+```bash
+./xray.sh -h
+```
+
+## Output
+
+The scan results will be saved in a file named `vuln.txt`, and the results will also be displayed in the terminal.
+
+## Notes
+
+- Make sure you have the necessary permissions to execute the script.
+- You might need to run the script with `sudo` if you encounter permission issues during installation.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+```
+
+### How to Use
+
+1. **Create a `README.md` file** in your repository or project directory.
+2. **Copy and paste** the above content into the `README.md` file.
+3. **Save the file**.
+
+Feel free to customize any section based on your preferences or specific details about your project! If you need any further adjustments, just let me know.
